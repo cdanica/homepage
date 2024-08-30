@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(217, 182, 247);
+    font-family:sans-serif;
+}
+
+p {
+    font-size: 20px;
+    color:rgb(53, 19, 82);
+    background-color: rgb(182, 234, 247);
+    padding: 10px;
+    margin: 30px;
+}
+
+.special {
+    border: 5px inset blue;
+    padding: 30px;
+    background-color: rgb(99, 99, 255);
+    text-align: center;
+}
+
+h1 {
+    font-size:50px;
+    font-weight:normal;
+    font-style:italic;
+}
+
+.highlight {
+    border: 5px dashed blue;
+    padding: 10px;
+}
+
+img {
+    max-width:100%;
+}
