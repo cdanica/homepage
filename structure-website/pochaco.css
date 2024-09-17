@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width:100;
+}
+
+@font-face {
+    font-family:"Jacquarda Bastarda 9 Regular" ;
+    src: url('JacquardaBastarda9-Regular.ttf');
+}
+
+body {
+    background-color: lightpink;
+}
+
+h1 {
+    font-family:"Jacquarda Bastarda 9 Regular";
+    color: white;
+    font-size: 85px;
+    text-align: center;
+}
+
+.main-container {
+    background: white;
+    border: 10px solid;
+    border-color: rgb(235, 149, 165);
+    height: 500px;
+    width:500px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    color: rgb(235, 149, 165);
+    position: relative;
+    top: -10%;
+}
+
+h2 {
+    font-family:"Jacquarda Bastarda 9 Regular";
+    color: white;
+    font-size: 85px;
+    text-align: center;
+}
+
+.container {
+    background: lightpink;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(235, 149, 165);
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    font-family: "Jacquarda Bastarda 9 Regular";
+    color: white;
+}
+
+.head {
+    background: white;
+    width: 480px;
+    display: flex;
+    font-family: "Jacquarda Bastarda 9 Regular";
+    justify-content: center;
+    color: rgb(235, 149, 165);
+    font-size: 40px;
+}
+
+.text {
+    color: rgb(235, 149, 165);
+    text-align: center;
+    width: 450px;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: -15%;
+    margin: auto;
+    font-size: 14px;
+}
