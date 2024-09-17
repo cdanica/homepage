@@ -1,0 +1,141 @@
+body {
+    background-color: black
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    border: 5px dotted red;
+    padding: 20px;
+    color: white;
+    margin-left: 65px;
+    margin-right: 65px;
+    text-decoration: underline;
+    font-size: 65px;
+}
+
+.wingman2 {
+    position:fixed;
+    bottom:0;
+    right: 3%;
+    z-index: 4;
+}
+
+.reason-1 {
+    position: absolute;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    font-size: 20px;
+    left: 40%;
+    top: 35%;
+    text-align: center;
+}
+
+.troll {
+    position:absolute;
+    margin: 0;
+    left: 11%;
+    top: 42%
+}
+
+.reaction {
+    position:absolute;
+    margin: 0;
+    left: 62%;
+    top: 38%
+}
+
+.reason-2 {
+    position: absolute;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 65px;
+    font-size: 20px;
+    left: 67%;
+    top: 81%;
+}
+
+.smurf {
+    position:absolute;
+    margin: 0;
+    left: 35%;
+    top: 96%;
+}
+
+.reason-3 {
+    position: absolute;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 65px;
+    font-size: 20px;
+    left: 34%;
+    top: 137%;
+    text-align: center;
+}
+
+.maps {
+    position:absolute;
+    margin: 0;
+    left: 5%;
+    top: 151%;
+}
+
+.abyss {
+    position:absolute;
+    margin: 0;
+    left: 63%;
+    top: 151%;
+}
+
+.reason-4 {
+    position: absolute;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 65px;
+    font-size: 20px;
+    left: 33%;
+    top: 190%;
+}
+
+.grr {
+    position:absolute;
+    margin: 0;
+    left: 5%;
+    top: 201%;
+}
+
+.index {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size:30px;
+    margin-left: 65px;
+    margin-right: 65px;
+    top: 258%;
+    left: 33%;
+    position:absolute;
+}
+
+.sentinals {
+    position:absolute;
+    top: 255%;
+    left: 12%;
+}
+
+.duelists {
+    position:absolute;
+    top: 255%;
+    left: 58%;
+}
