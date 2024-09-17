@@ -1,0 +1,121 @@
+body {
+    background-image: url("background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    border: 5px groove rgb(41, 51, 116);
+    padding: 20px;
+    color: white;
+    background-color:rgba(51, 63, 142, 0.654);
+    margin-left: 65px;
+    margin-right: 65px;
+    text-decoration: underline;
+    font-size: 65px;
+}
+
+ul {
+    font-family:'Courier New', Courier, monospace;
+    font-size:20px;
+    background-color: rgba(255, 255, 255, 0.453);
+    margin-left: 65px;
+    margin-right: 65px;
+    width: 300px;
+    margin-bottom: 10px;
+    border: 5px dotted white;
+}
+
+.reason-1 {
+    background-color:rgba(51, 63, 142, 0.654); position: static;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-bottom: 65px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.friends {
+    position:absolute;
+    margin: 0;
+    left: 30%;
+    top: 50%
+}
+
+.reason-2 {
+    background-color:rgba(51, 63, 142, 0.654); position: relative;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 65px;
+    font-size: 20px;
+    right: -68%
+}
+
+.skin1 {
+    position:absolute;
+    margin: 0;
+    left: 40%;
+    top: 110%;
+}
+
+.skin2 {
+    position:absolute;
+    margin: 0;
+    left: 5%;
+    top: 110%;
+}
+
+.reason-3 {
+    background-color:rgba(51, 63, 142, 0.654); position: static;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 65px;
+    font-size: 20px;
+}
+
+.agents {
+    position:absolute;
+    margin: 0;
+    left: 30%;
+    top: 165%
+}
+
+.reason-4 {
+    background-color:rgba(51, 63, 142, 0.654); position: relative;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 65px;
+    font-size: 20px;
+    right: -68%
+}
+
+.ranks {
+    position:absolute;
+    margin: 0;
+    left: 38%;
+    top: 227%
+}
+
+.leaderboard {
+    position:absolute;
+    margin: 0;
+    left: 5%;
+    top: 227%
+}
