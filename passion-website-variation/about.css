@@ -1,0 +1,247 @@
+body {
+    background-color:black
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    border: 5px dotted red;
+    padding: 20px;
+    color: white;
+    margin-left: 65px;
+    margin-right: 65px;
+    text-decoration: underline;
+    font-size: 65px;
+}
+
+.wingman3 {
+    position:fixed;
+    bottom:0;
+    right: 3%;
+    z-index: 4;
+}
+
+h2 {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-left: 65px;
+    margin-right:65px;
+}
+
+p {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    margin-left: 65px;
+    margin-right:65px;
+    border: 3px double white;
+    padding: 15px;
+}
+
+.what {
+    position: absolute;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    left: 38%;
+    top: 57%;
+}
+
+.logo {
+    position:absolute;
+    margin: 0;
+    left: 17%;
+    top: 55%;
+}
+
+.full {
+    position:absolute;
+    margin: 0;
+    left: 61%;
+    top: 60%;
+}
+
+.agents {
+    position: absolute;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 65px;
+    font-size: 20px;
+    left: 33%;
+    top: 102%;
+    text-align:center;
+}
+
+.reyna {
+    position:absolute;
+    margin: 0;
+    left: 27%;
+    top: 102%;
+}
+
+.neon {
+    position:absolute;
+    margin: 0;
+    left: 17%;
+    top: 106%;
+}
+
+.pheonix {
+    position:absolute;
+    margin: 0;
+    left: 58%;
+    top: 107%;
+}
+
+.yoru {
+    position:absolute;
+    margin: 0;
+    left: 66%;
+    top: 107%;
+}
+
+.rounds {
+    position: absolute;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 65px;
+    font-size: 20px;
+    left: 33%;
+    top: 156%;
+    text-align: center;
+}
+
+.menu {
+    position:absolute;
+    margin: 0;
+    left: 65%;
+    top: 169%;
+}
+
+.spike {
+    position:absolute;
+    margin: 0;
+    left: 5%;
+    top: 174%;
+}
+
+.weapons {
+    position: absolute;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 65px;
+    font-size: 20px;
+    left: 33%;
+    top: 225%;
+    text-align:center;
+}
+
+.judge {
+    position:absolute;
+    margin: 0;
+    left: 20%;
+    top: 226%;
+}
+
+.vandal {
+    position:absolute;
+    margin: 0;
+    left: 8%;
+    top: 243%;
+}
+
+.classic {
+    position:absolute;
+    margin: 0;
+    left: 27%;
+    top: 268%;
+}
+
+.odin {
+    position:absolute;
+    margin: 0;
+    left: 50%;
+    top: 226%;
+}
+
+.operator {
+    position:absolute;
+    margin: 0;
+    left: 63%;
+    top: 232%;
+}
+
+.ghost {
+    position:absolute;
+    margin: 0;
+    left: 59%;
+    top: 268%;
+}
+
+.maps {
+    position: absolute;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 65px;
+    font-size: 20px;
+    left: 33%;
+    top: 285%;
+    text-align: center;
+}
+
+.lotus {
+    position:absolute;
+    margin: 0;
+    left: 4%;
+    top: 300%;
+}
+
+.sunset {
+    position:absolute;
+    margin: 0;
+    left: 63%;
+    top: 300%;
+}
+
+.index {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size:30px;
+    margin-left: 65px;
+    margin-right: 65px;
+    top: 350%;
+    left: 34%;
+    position:absolute;
+}
+
+.sentinals {
+    position:absolute;
+    top: 347%;
+    left: 12%;
+}
+
+.duelists {
+    position:absolute;
+    top: 347%;
+    left: 58%;
+}
