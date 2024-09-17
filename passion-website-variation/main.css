@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    border: 5px dotted lightpink;
+    padding: 20px;
+    color: white;
+    margin-left: 65px;
+    margin-right: 65px;
+    text-decoration: underline;
+    font-size: 65px;
+}
+
+.box {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: normal;
+    color: white;
+    margin-left: 65px;
+    margin-right:65px;
+    border: 3px double lightpink;
+    padding: 15px;
+    position: absolute;
+    width: 500px;
+    height: 294px;
+    font-size: 25px;
+    left: 40%
+}
+
+.me {
+    position:absolute;
+    margin-left: 65px;
+    margin-right:65px;
+    left: 17%
+}
+
+.links {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size:30px;
+    margin-left: 65px;
+    margin-right: 65px;
+    top: 77%;
+    left: 33%;
+    position:absolute;
+}
+
+.sentinals {
+    position:absolute;
+    top: 74%;
+    left: 12%
+}
+
+.duelists {
+    position:absolute;
+    top: 74%;
+    left: 58%
+}
