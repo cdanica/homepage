@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+}
+
+img {
+    max-width:100;
+}
+
+.container {
+    background: rgb(114, 172, 112);
+    height: 50vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    position: relative;
+    overflow:hidden;
+}
+
+.disc1 {
+    animation: spin 6s infinite linear;
+}
+
+.disc2 {
+    animation: spin2 6s infinite linear;
+}
+
+.disc3 {
+    animation: spin 6s infinite linear;
+}
+
+@keyframes spin {
+    0% {
+        transform:rotate(0);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+@keyframes spin2 {
+    0% {
+        transform:rotate(360deg);
+    }
+    100% {
+        transform:rotate(0);
+    }
+}
+
+.container2 {
+    background: rgb(114, 172, 112);
+    height: 50vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    position: relative;
+    overflow:hidden;
+}
+
+.disc4 {
+    animation: spin2 6s infinite linear;
+}
+
+.disc5 {
+    animation: spin 6s infinite linear;
+}
+
+.disc6 {
+    animation: spin2 6s infinite linear;
+}
