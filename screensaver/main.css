@@ -4,6 +4,9 @@
 
 body {
     margin:0;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size:contain;
 }
 
 img {
@@ -11,7 +14,6 @@ img {
 }
 
 .container {
-    background: rgb(114, 172, 112);
     height: 50vh;
     display: flex;
     align-items:center;
@@ -32,26 +34,7 @@ img {
     animation: spin 6s infinite linear;
 }
 
-@keyframes spin {
-    0% {
-        transform:rotate(0);
-    }
-    100% {
-        transform:rotate(360deg);
-    }
-}
-
-@keyframes spin2 {
-    0% {
-        transform:rotate(360deg);
-    }
-    100% {
-        transform:rotate(0);
-    }
-}
-
 .container2 {
-    background: rgb(114, 172, 112);
     height: 50vh;
     display: flex;
     align-items:center;
@@ -70,4 +53,22 @@ img {
 
 .disc6 {
     animation: spin2 6s infinite linear;
+}
+
+@keyframes spin {
+    0% {
+        transform:rotate(0);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+@keyframes spin2 {
+    0% {
+        transform:rotate(360deg);
+    }
+    100% {
+        transform:rotate(0);
+    }
 }
