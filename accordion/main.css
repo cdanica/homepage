@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width:100;
+}
+
+.first {
+    width:100vw;
+}
+
+.second {
+    width:100vw;
+}
+
+.third {
+    width:100vw;
+}
+
+.fourth {
+    width:100vw;
+}
+
+.fifth {
+    width:100vw;
+}
+
+.sixth {
+    width:100vw;
+}
+
+.seventh {
+    width:100vw;
+}
+
+@media screen and (max-width:1500px) {
+    .first {
+        display:block
+    }
+    .second {
+        display:none
+    }
+    .third {
+        display:none
+    }
+    .fourth {
+        display:none
+    }
+    .fifth {
+        display:none
+    }
+    .sixth {
+        display:none
+    }
+    .seventh {
+        display:none
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .first {
+        display:none
+    }
+    .second {
+        display:block
+    }
+    .third {
+        display:none
+    }
+    .fourth {
+        display:none
+    }
+    .fifth {
+        display:none
+    }
+    .sixth {
+        display:none
+    }
+    .seventh {
+        display:none
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .first {
+        display:none
+    }
+    .second {
+        display:none
+    }
+    .third {
+        display:block
+    }
+    .fourth {
+        display:none
+    }
+    .fifth {
+        display:none
+    }
+    .sixth {
+        display:none
+    }
+    .seventh {
+        display:none
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .first {
+        display:none
+    }
+    .second {
+        display:none
+    }
+    .third {
+        display:none
+    }
+    .fourth {
+        display:block
+    }
+    .fifth {
+        display:none
+    }
+    .sixth {
+        display:none
+    }
+    .seventh {
+        display:none
+    }
+}
+
+@media screen and (max-width:850px) {
+    .first {
+        display:none
+    }
+    .second {
+        display:none
+    }
+    .third {
+        display:none
+    }
+    .fourth {
+        display:none
+    }
+    .fifth {
+        display:block
+    }
+    .sixth {
+        display:none
+    }
+    .seventh {
+        display:none
+    }
+}
+
+@media screen and (max-width:700px) {
+    .first {
+        display:none
+    }
+    .second {
+        display:none
+    }
+    .third {
+        display:none
+    }
+    .fourth {
+        display:none
+    }
+    .fifth {
+        display:none
+    }
+    .sixth {
+        display:block
+    }
+    .seventh {
+        display:none
+    }
+}
+
+@media screen and (max-width:500px) {
+    .first {
+        display:none
+    }
+    .second {
+        display:none
+    }
+    .third {
+        display:none
+    }
+    .fourth {
+        display:none
+    }
+    .fifth {
+        display:none
+    }
+    .sixth {
+        display:none
+    }
+    .seventh {
+        display:block
+    }
+}
