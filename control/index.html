@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <title>control</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+        <h1>𖡼.𖤣𖥧𖡼.𖤣𖥧 Welcome to The Flower Boutique 𖡼.𖤣𖥧𖡼.𖤣𖥧</h1>
+        
+        <h2>Drag to create your own custom bouquet! Add a ribbon once you're done!</h2>
+
+        <p>Ribbon Colors!:</p>
+    </body>
+
+    <div class="button">
+        <button onclick="toggleVisibility('pinkItem', this)">Pink</button>
+        <button onclick="toggleVisibility('yellowItem', this)">Yellow</button>
+        <button onclick="toggleVisibility('blueItem', this)">Blue</button>
+    </div>
+
+    <div id="pinkItem" class="hidden"><img src="assets/ribbon1.PNG" width="300px" class="draggable"></div>
+
+    <div id="yellowItem" class="hidden"><img src="assets/ribbon2.PNG" width="300px" class="draggable"></div>
+
+    <div id="blueItem" class="hidden"><img src="assets/ribbon3.PNG" width="300px" class="draggable"></div> 
+
+    <div class="flowers">
+        <img src="assets/blue.PNG" width="200px" class="draggable">
+        <img src="assets/lav2.PNG" width="180px" class="draggable">
+        <img src="assets/yellow.PNG" width="200px" class="draggable">
+        <img src="assets/lav1.PNG" width="200px" class="draggable">
+        <img src="assets/rose.PNG" width="200px" class="draggable">
+        <img src="assets/rose2.PNG" width="200px" class="draggable">
+        <img src="assets/tulip1.PNG" width="200px" class="draggable">
+        <img src="assets/tulip2.PNG" width="200px" class="draggable">
+        <img src="assets/white.PNG" width="300px" class="draggable">
+      </div>
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="main.js"></script>
+
+</html>
