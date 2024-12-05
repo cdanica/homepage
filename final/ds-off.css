@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width:100;
+}
+
+body {
+    background:#e7e7ae;
+}
+
+.container {
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction:row;
+}
+
+.left1 {
+    display: flex;
+    width: 150vw;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.ds {
+    margin:0;
+}
+
+.right1 {
+    display: flex;
+    width: 150vw;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+}
