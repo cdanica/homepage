@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width:100;
+}
+
+body {
+    margin:0;
+    background:#e7e7ae;
+}
+
+.container {
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
