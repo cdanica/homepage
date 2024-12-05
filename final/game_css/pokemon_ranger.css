@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width:100;
+}
+
+body {
+    background:#e7e7ae;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back {
+    position: absolute;
+    left: 15%;
+    top: 87%;
+}
+
+.ds {
+    position: absolute;
+    z-index: 2;
+}
+
+.game1 {
+    position: absolute;
+    top:6%;
+}
+
+.game2 {
+    position: absolute;
+    top:57%;
+}
